@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+   <head>
+   <meta charset="utf-8">
+   <title>Get started with RoboX</title>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+   <script type="text/javascript" src="/RoboX/cookies/cookies_enabled.js"> </script>
+   <link href = "/RoboX/css/style.css" rel="stylesheet" type="text/css">
+   <link href = "/RoboX/css/templatemo_style.css" rel="stylesheet" type="text/css">
+   <link href="/RoboX/css/ddsmoothmenu.css" rel = "stylesheet" type="text/css">
+   <link href = "/RoboX/css/registration.css" rel = "stylesheet" type = "text/css" >
+   <script type = "text/javascript" src = "/RoboX/registration/registration.js" >
+   	
+   </script>
+   
+</head>
+
+<body>
+
+	<!-- CREATE REGISTRATION TEMPLATE  -->
+	<div id='templatemo_wrapper'>
+		<div id='templatemo_header'>
+			<div id='site_title'>
+				<a href='/RoboX/' >
+				<img src='/RoboX/images/templatemo_logo.png' alt='RoboX' />
+				</a>
+				<h1>Get started with RoboX</h1>
+			</div>
+
+			<div class='cleaner'>
+				
+			</div>
+		</div> <!-- END of templatemo_header -->
+	<form id='form' method='POST'>
+   	<div id='registration_form'>
+   	<div class='inputData' id='div_fName' >
+      	<label for = 'fName' >First name</label><br>
+      	<input type='text' name='fName' id='fName' size = '30'><br>
+            <div id='firstName_E' class='errorMessages'>Please enter your first name 
+            	using only letters.</div>
+   	</div>
+      <div class='inputData' id="div_lName" >
+      	<label for = 'lName' >Last name</label><br>
+      	<input type='text' name='lName' id='lName' size = '30'>
+            	<div id='secondName_e' class='errorMessages'>Please enter your 
+               	last name using only letters.</div>
+    	</div>    
+              
+       
+      <div class='inputData' id="div_email">
+      	<label for = 'email' >Email</label><br>
+      	<input type='email' name='email' id='email' size='40'>
+      	<div id='email_E' class='errorMessages'>
+         	Please enter an email like: John.Smith@gmail.com
+         	<img id="infoID"
+            	src="/RoboX/images/buttons/Toolbar-Regular-Get-Info-icon.png">
+            	<div id="moreInfoEmail"> Email address must start with "_A-Za-z0-9-\+",
+               	optional follow by ".[_A-Za-z0-9-]", and end with a "@" symbol. The 
+                  email's domain name must start with "A-Za-z0-9-", follow by first level 
+                  Tld (.com, .net) ".[A-Za-z0-9]" and optional follow by a second level 
+                  Tld (.com.au, .com.my) "\.[A-Za-z]{2,}", where second level Tld must 
+                  start with a dot "." and length must equal or more than 2 characters.
+               </div>
+         </div>
+ 		</div>
+                                 
+      <div class='inputData' id="div_userID" >
+      	<label for = 'userID' >RoboX user ID</label><br>
+      	<input type='text' name='userID' id='userID' 
+         	size = '40'>
+      	<div id="userIDInfo">
+          	<ul>
+            	<li>Use between 6 and 12 characters (letters, numbers, periods, underscores, 
+               	dashes only).
+               <li>To protect your privacy, do not use your email address or full name 
+               	for your user ID.</li>
+            </ul>
+        </div>
+     </div>
+                              
+     <div class='inputData' id="div_passwords" >
+     		<label for = 'password' >Password</label><br />
+     		<input type='password'  name='password' 
+         	id='password'>
+            <div id="passwordInfo" class='classPassMess'>
+               <ul>
+                  <li>Use at least 6 characters string with
+                  <li>One digit</li>
+                  <li>One upper case letter</li>
+                  <li>One lower case letter</li>
+                  <li>One special symbol (“@#$%”)</li>
+               </ul>
+               <div id='noMatch' class='classPassMess'>Password does not match</div>
+            	<div id='matchF' class='classPassMess'>Confirm Password</div>
+        		</div><br />
+         <label for = 'verifyPassword' >Confirm password</label><br />
+         	<input type='password' name='verifyPassword' id='verifyPassword'>
+            
+     </div>
+      
+
+               
+         <div class='inputData' id="div_verPass" >
+         	
+         </div>
+               
+         <br><br><br><br><br><br /><br />
+               
+         <div class = 'inputData'>
+         	By clicking "Submit" I agree that:<br>
+         	<ul>
+            	<li>I have read and accepted the 
+               	<a href="/RoboX/underConstruction">User Agreement</a> 
+               	and <a href="/RoboX/underConstruction">Privacy Policy</a>.</li>
+            	<li>I may receive communications from RoboX and can change my 
+                	notification preferences in my account.</li>
+            	<li>I am at least 18 years old.</li>
+          	</ul>
+			</div>
+             
+     		<div class = "buttons" >
+         	<input type="button" onclick="javascript:history.go(-1)" 
+             	id='back' name='back' value='Back' > 
+         	<input type='button' id='submit' name='submit' 
+            	value = 'Register'>  
+            <div id='generMes'>
+            	There was a problem with your request.
+            </div>
+      	</div>
+           		
+            <!--<div id = "rightPanel">
+      			<img src = "/images/nod32robot.png" />
+      		</div>-->
+			</div>
+         <!-- END REGISTRATION TEMPLATE  -->
+		</form> 
+      
+	</div> <!-- END of templatemo_wrapper --> 
+		
+</body>
+</html>

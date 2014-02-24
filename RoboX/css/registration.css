@@ -1,0 +1,177 @@
+/* CSS Document */
+#registration_form	{
+			text-align: left;
+			font-size: 1.5em;
+			
+			background: /* by Atle Mo (design), Lea Verou (code) */
+				radial-gradient(black 15%, transparent 16%) 0 0,
+				radial-gradient(black 15%, transparent 16%) 8px 8px,
+				radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+				radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+				background-color:#282828;
+				background-size:16px 16px;
+			border-style: groove;
+			border-width: 1px;
+			border-color: #999;
+			box-shadow: .3em .3em 1em #888888;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 15px;
+			overflow: hidden;
+			width: 100%;
+			margin-bottom: 3em;
+} 
+
+#site_title {
+	margin: auto;
+	text-align: center;
+}
+#site_title > h1{
+	display: inline-block;
+}
+div>input		{
+			/*
+			border-radius: 5px;
+			height: 1em;
+			width: 20em;
+			padding: .5em;
+			*/
+			margin-top: .5em;
+			margin-bottom: .7em;
+			padding: 10px 4px 6px 3px;
+			border: 1px solid #0d2c52;
+			background-color: #333;
+			font-size: 16px;
+			color: #ebebeb;
+} 
+		
+.inputData{
+			text-align: left;
+			float: left;
+}
+		 
+#div_lName	{
+			margin-left: 2em;	
+}
+	
+#submit, #back	{
+			margin-top: 2em;
+			margin-bottom: 1em;
+			margin-left: 1em;
+			padding-top: .7em;
+			padding-bottom: .7em;
+			padding-left: 3em;
+			padding-right: 3em;
+			border: none;	
+			width: 10em;
+			text-align: center;
+			color: #FFF;	
+			background: url("/RoboX/images/button.png") repeat-x;		
+}
+#submit:hover, #back:hover {
+			color: #fff;
+			background: url("/RoboX/images/templatemo_menu_hover.jpg") repeat-x;
+}
+#submit:active, #back:active{
+			position: relative;
+			bottom: -.3em;
+}
+		
+#registration_form {
+			width: 70%;
+			float: left;	
+}
+		
+#rightPanel	{
+			position: absolute;
+			right: 9em;
+			top: 6.7em;
+}
+		
+.info, .success, .warning, .error, .validation{
+			border: 1px solid;
+			margin: 10px 0px;
+			padding: 15px 10px 15px 50px;
+			background-repeat: no-repeat;
+			background-position: 10px center;
+} 
+		
+.error {
+			color: #D80000;
+			background-image: url( '/RoboX/images/buttons/Knob Cancel.png' );
+} 
+.success {
+			color: #4F8A10;
+			background-color: #DFF2BF;
+			background-image: url( '/RoboX/images/buttons/Knob Valid Green.png' );
+}
+.errorMessages {
+			display: none;
+			color: #D8000C;
+			background-position: center;
+			font-size: .6em;
+}
+#moreInfoEmail {
+			display: none;
+			border: 1px solid #00529B;
+			margin: 0px 10px 0px 0px;
+			padding:10px 10px 10px 10px;
+			background-repeat: no-repeat;
+			background-position: 10px center;
+			color: #00529B;
+			background-color: #BDE5F8;
+			width: 100%;
+}
+#userIDInfo, #passwordInfo ul, #passwordInfo div {
+			display: none;
+			color: #D8000C;
+			background-position: center;
+			font-size: .7em;
+} 
+#passwordInfo {
+	float: right;	
+}
+#passwordInfo > #matchF, #passwordInfo > #noMatch {
+	display: none;
+	background-position: center;
+	font-size: .7em;
+	color: #9F6000;
+	margin-top: 7em;
+	
+}
+#passwordInfo > #noMatch {
+ 	color: #D8000C;
+}
+#passwordInfo div {
+	margin: 10px 0px 0px 5px;	
+}
+.buttons		{
+			clear: left;
+} 
+		
+.inputData		{
+	margin-top: 1em;	
+}
+
+#div_email		{
+	clear: left;
+	width: 100%;
+} 
+
+#div_userID		{
+	width: 100%;
+} 
+
+#div_passwords		{
+	float: left;
+	margin-bottom: 1em;	
+}
+#generMes   {
+   display: none;
+   color: #D8000C;
+}
+
+#templatemo_wrapper {
+	position:absolute;	
+	margin-left: 13em;
+}

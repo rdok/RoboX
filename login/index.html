@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Login RoboX</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" > </script>
+<script type="text/javascript" src="/RoboX/cookies/cookies_enabled.js"> </script>
+<script type="text/javascript" src="/RoboX/login/login.js"> </script>
+<link href="/RoboX/css/login-box.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+   <div style="padding: 100px 0 0 250px;">
+   <a href="/RoboX/" id="home">
+		<img src="/RoboX/images/templatemo_logo.png" alt="RoboX">
+	</a>
+      <div id="login-box">
+         <h3>Sign in</h3>
+         
+         <div id="login-box-name" >Email or user ID</div>
+         <div id="register-box">
+      	New to RoboX?
+         	<div id ="register-mess">
+            	Get Started now. It's the RoboX way!<br />
+                <a href="/RoboX/registration/">
+               <input type = "button" id="register" name="register" value="Register" />
+           		</a> 
+            </div>
+          
+         </div> 
+         <div id="login-box-field">
+         	<input name="q" class="form-login" id="input_login_id" title="Username" value="" size="30" 
+            	maxlength="2048" />
+            <span id="error_login" class="errorMessages">
+            <!-- show user/email error messages -->
+            </span>
+         </div>
+         <div id="login-box-name">Password</div>
+         <div id="login-box-field"><input name="q" id="password" type="password" class="form-login" 
+         	title="Password" value="" size="30" maxlength="2048" />
+            <span id="error_password" class="errorMessages">
+            <!-- show password error messages -->
+            </span>
+            </div>
+         
+         <span class="login-box-options">
+            <a href="/RoboX/underConstruction" style="font-size:.9em">Forgot password?</a><br />
+            <input type="checkbox" name="1" value="1"> 
+             <span style="font-size:.9em">Remember Me</span>
+             <span style="font-size:.7em">(Uncheck if you're on a shared computer)</span>
+         </span>
+         <br />
+         <br />
+         	<input type = "button" id="login" name="login" value="Sign In" />
+             <div id="errorLogIn"></div>
+      	</div>
+   	</div>     
+   </div>
+   
+</body>
+</html>

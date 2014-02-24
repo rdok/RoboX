@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url("/RoboX/images/bgC.png") repeat;
+}
+#login-box {
+	width: 45em;
+	text-align: left;
+	font-size: 1.2em;
+	background: /* by Atle Mo (design), Lea Verou (code) */ radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color: #282828;
+	background-size: 16px 16px;
+	border-style: groove;
+	border-width: 1px;
+	border-color: #999;
+	box-shadow: .3em .3em 1em #888888;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 2em;
+	overflow: hidden;
+	margin-bottom: 3em;
+	color: #999;
+	font-family: Tahoma, Geneva, sans-serif;
+	float: left;
+}
+div>input {
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color: #333;
+	font-size: 16px;
+	color: #ebebeb;
+	margin-bottom: 1em;
+}
+#login-box img {
+	border: none;
+}
+#login-box h2 {
+	margin: auto;
+	margin-bottom: .7em;
+	color: #ebebeb;
+	font-size: 1.6em;
+}
+#register-box {
+	display: inline-block;
+	margin-right: 7em;
+	float: right;
+	text-align: center;
+}
+#register-box>div {
+	display: block;
+	margin-top: 1em;
+	font-size: .7em;
+}
+#home {
+	display: block;
+	width: 2em;
+}
+#login, #register {
+	padding-top: .7em;
+	padding-bottom: .7em;
+	padding-left: 3em;
+	padding-right: 3em;
+	border: none;
+	width: 10em;
+	text-align: center;
+	color: #FFF;
+	background: url("/RoboX/images/button.png") repeat-x;
+}
+#login:hover, #register:hover {
+	color: #fff;
+	background: url("/RoboX/images/templatemo_menu_hover.jpg") repeat-x;
+}
+#login:active, #register:active {
+	position: relative;
+	bottom: -.3em;
+}
+.errorMessages {
+	display: block;
+	color: #D8000C;
+	/*background-position: center;*/
+	font-size: .7em;
+	margin-bottom: 0.5em;
+}
+#errorLogIn {
+	display: inline-block;
+}
+#error_login, #error_password {
+	display: none;
+}
+a {
+	color: #08aee3;
+}
+#log_out_mess {
+	border: 1px solid #08aee3;
+	padding: 1em;
+	width: 80%;
+	background: url("/RoboX/images/bgC.png") repeat;
+}
+#relogin_box_field {
+	float: right;
+	border: 1px solid #08aee3;
+	background: url("/RoboX/images/bgC.png") repeat;
+	margin-right: 1em;
+	padding: 1em;
+}

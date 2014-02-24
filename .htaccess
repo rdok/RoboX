@@ -1,0 +1,29 @@
+##########################################
+# for all files request that do not exist redirect to 404.html
+ErrorDocument 404 /RoboX/404.html
+# prevent directories access - genereate 403 error - redirect to 403.html
+Options -Indexes
+ErrorDocument 403 /RoboX/403.html
+###########################################
+
+###########################################
+# turn on the mod_rewrite engine
+RewriteEngine on
+
+# if the file with the specified name does not exist then
+RewriteCond %{REQUEST_FILENAME} !-d
+# or the directory in the browser does not  exists
+RewriteCond %{REQUEST_FILENAME}\.html -f
+# rewrite as html/php
+RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+#############################################
+
+##RewriteCond %{HTTP_HOST} ^dokollari\.students\.acg\.edu$ [OR]
+##RewriteCond %{HTTP_HOST} ^www\.dokollari\.students\.acg\.edu$
+#RewriteRule ^/?$ "http\:\/\/dokollari\.students\.acg\.edu\/RoboX" [R=301,L]
+
+################################################
+#prepend function to start a session
+php_value auto_prepend_file "prepend\.php"

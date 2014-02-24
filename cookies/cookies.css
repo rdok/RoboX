@@ -1,0 +1,41 @@
+/* CSS Document */
+#templatemo_header {
+	text-align: left;
+	font-size: 1.5em;
+	background: /* by Atle Mo (design), Lea Verou (code) */
+ radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color: #282828;
+	background-size: 16px 16px;
+	border-style: groove;
+	border-width: 1px;
+	border-color: #999;
+	box-shadow: .3em .3em 1em #888888;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	overflow: hidden;
+	width: 90%;
+	height: 70%;
+	margin-bottom: 3em;
+	color: #FFF;
+	margin-left: 2em;
+	margin-right: 5em;
+	margin-top: 3em;
+}
+body {
+	background-image: url("/RoboX/images/bgC.png");
+}
+#cookiesPolicy {
+	margin-left: 3em;
+	margin-right: 3em;
+	font-size: .7em;
+	border: 1px solid;
+	border-color: #D80000;
+	padding: 1em;
+}
+#error {
+	color: #D80000;
+}
+a {
+	color: #09F;
+}
