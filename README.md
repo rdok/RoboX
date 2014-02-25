@@ -1,7 +1,7 @@
 RoboX
 =====
 
-Simple Website for Internet Programming Course for DEREE College - Greece
+Simple Website for internet programming course college
 
 ###Highlights
 - Paypal Integration
